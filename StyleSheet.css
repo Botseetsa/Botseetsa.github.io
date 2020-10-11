@@ -1,0 +1,161 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#page
+{
+    background-color:white;
+    width:95%;
+    margin: auto;
+    padding: 10px;
+    height: 600px;
+    color: black;
+
+}
+html
+{
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: xx-large;
+    color: palevioletred;
+    text-align: center;
+    
+    
+}
+h2{
+    font-size: large;
+    color: palevioletred ;
+    text-align: center;
+}
+header
+{
+    color: palevioletred;
+    font-size: x-large;
+    font: bold;
+    text-align: center;
+    
+}
+nav
+{
+    border-radius: 1px;
+    background: pink;
+    padding: 0.3cm;
+}
+nav li
+{
+   display: inline;
+   list-style: none;
+   padding-right: 1.5cm;
+
+}
+nav a
+{
+color: white;
+text-decoration: none;
+}
+nav a:hover
+{
+    color: purple;
+}
+
+#container
+{
+    display: flex;
+}
+.middle
+{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+#left
+{
+    
+    align-content: center;
+    flex: 1;
+}
+#right
+{
+
+    flex:1;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    height: 100px;
+}
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+td
+{
+    border: 1px solid black;
+    color: black;
+
+}
+tr
+{
+    border: 1px solid black;
+    color: black;
+}
+th
+{
+    border: 1px solid black;
+}
+footer
+{
+    
+    text-align: center;
+}
+#img
+{
+    float: right;
+}
+#pic
+{
+    float: left;
+}
+#far
+{
+    float: right;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 11px;
+}
+
+#video-container
+{
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    width: 95%;
+    height: 600px;
+    
+    
+
+}
+.heading
+{
+    color: pink;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+.tagline
+{
+    background-color: black;
+    padding: 10px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

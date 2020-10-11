@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="StyleSheet"type="text/css"  href="https://Botseetsa.github.io/StyleSheet.css" >
+</head>
+<body>
+   
+    
+
+    <a name="Top"></a>
+    <div id="page">
+        <nav>
+           <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="Achievements.html">Achievements</a></li>
+                <li><a href="CommunityP.html">Community Outreach Projects</a></li>
+                <li id="far"  ><a style="font-size: x-small" >You must expect great things of yourself before you can do them."-Micheal Jordan"</a></li>
+                
+           </ul>
+        </nav>
+
+         <section id="container">
+            <section id="left">
+                <h2 style="font: bolder; font-style: italic; font-size: xx-large;">Hello! My name is Botseetsa Tokollo Makunyane and welcome to my technical CV.</h2>
+                <video autoplay loop muted controls="controls"width="100%" height="500" name="bideo" src="Images1/hd1299.mov"></video>
+                 
+                
+              
+             
+            </section>
+
+            <section id="right">
+               <img id="img" src="Images1/Back.jpg" >
+
+               
+
+        
+              </section>
+         </section>
+
+         <a href="#" id="sLocation">View Location</a>
+     <div id="maps">
+         <iframe id="google_map" width="400" height="500" frameborder="0" scrolling= "no" src="https://maps.google.co.za?output=embed"></iframe>
+         
+
+     </div>
+
+     <script>
+         var m = function(pos)
+         {
+             var lat = pos.coords.latitude,
+                long = pos.coords.longitude,
+                coords = lat + ','+long;
+
+                document.getElementById(google_map).setAttribute('src','https://maps.google.co.za/?q='+coords+'&z=60&output=embed');
+         }
+
+         document.getElementById('sLocation').onclick = function()
+         {
+             navigator.geolocation.getCurrentPosition(m);
+             return false;
+         }
+     </script>
+
+       
+
+        <footer>
+            
+        <nav>
+            <ul>
+                 <li><a> Phone number: 074 270 7533</a></li>
+                 <li><a> Email Address: botseetsam@gmail.com </a></li>
+                 <li><a> Home address:14 Ithaca Ave. Bedworth Park</a></li>
+
+            </ul> 
+         </nav>
+         <a style="color:black ;font-size:large;" href="#Top">Back to top</a>
+        </footer>
+    </div>
+ 
+</body>
+</html>                                                                                       
